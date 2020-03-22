@@ -1,0 +1,67 @@
+
+.search-box {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	padding: 20rpx 30rpx;
+	height: 90rpx;
+	line-height: 90rpx;
+	background: -webkit-linear-gradient(bottom, #ffe566 10%, #ffd300 100%);
+	background: linear-gradient(to top, #ffe566 10%, #ffd300 100%);
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 999;
+}
+.search-group {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	        justify-content: center;
+	width: 80%;
+	border-radius: 300rpx 0 300rpx 300rpx;
+	overflow: hidden;
+	margin-right: 50rpx;
+}
+.search {
+	width: 100%;
+	background: #fff7d4;
+}
+.search input {
+	box-sizing: border-box;
+	width: 100%;
+	padding-left: 60rpx;	
+	height: 70rpx;
+	line-height: 70rpx;
+	font-size: 30rpx;
+	color: #666666;
+	position: relative;
+}
+.search input::before {
+	font-family: 'iconfont';
+	content: '\E60F';
+	position: absolute;
+	left: 10rpx;
+	font-size: 50rpx;
+}
+.scan {
+	margin-right: 50rpx;
+	color: #fff;
+	font-size: 50rpx;
+}
+.liuyan {
+	color: #fff;
+	font-size: 50rpx;
+}
+
+
+

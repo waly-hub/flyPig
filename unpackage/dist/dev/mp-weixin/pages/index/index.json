@@ -1,0 +1,10 @@
+{
+  "navigationBarTitleText": "飞猪旅游",
+  "onReachBottomDistance": 20,
+  "usingComponents": {
+    "search": "/components/comment/Search",
+    "swiper-by": "/components/comment/SwiperBy",
+    "goods-list": "/components/comment/goodsList",
+    "uni-load-more": "/components/uni-load-more/uni-load-more"
+  }
+}

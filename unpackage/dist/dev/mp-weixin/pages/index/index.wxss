@@ -1,0 +1,126 @@
+
+.swiper-box {
+	margin-top: 140rpx;
+}
+.ticket-list {
+	margin-top: 15rpx;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	height: 130rpx;
+}
+.ticket-item {
+	height: 100%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-box-pack: justify;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+}
+.ticket-item image {
+	width: 100%;
+	height: 100%;
+}
+.ticket-item text {
+	font-size: 30rpx;
+}
+.classify {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-wrap: wrap;
+	        flex-wrap: wrap;
+	width: 92%;
+	margin: 20rpx 4% 0 4%;
+	border: 1px solid #eee;
+	border-radius: 10rpx;
+	/* box-shadow: 0 8upx 10upx rgba(0,0,0,.3); */
+}
+.classify-item {
+	box-sizing: border-box;
+	width: 25%;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-flex-direction: column;
+	        flex-direction: column;
+	-webkit-justify-content: space-around;
+	        justify-content: space-around;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	        align-items: center;
+	margin-bottom: 10rpx;
+}
+.classify-item:nth-child(-n+3) {
+	border-right: 1px solid #eee;
+	border-bottom: 1px solid #eee;
+}
+.classify-item:nth-child(4) {
+	border-bottom: 1px solid #eee;
+}
+.classify-item:nth-child(n+5) {
+	border-right: 1px solid #eee;
+}
+.classify-item:last-child {
+	border: none;
+}
+.tick {
+	font-size: 38rpx;
+	margin-bottom: 5rpx;
+}
+.nametext {
+	font-size: 28rpx;
+	color: #ccc;
+}
+.recommend {
+	margin-top: 20rpx;
+	background-color: #fff;
+	z-index: 999;
+}
+.recommend-scroll {
+	white-space: nowrap;
+	height: 90rpx;
+	width: 100%;
+	position: relative;
+	left: 0;
+	right: 0;
+}
+.strategy-item {
+	width: 190rpx;
+	display: inline-block;
+	text-align: center;
+}
+.item-title {
+	font-size: 38rpx;
+}
+.item-labei {
+	font-size: 28rpx;
+	color: #ccc;
+}
+.active {
+	background-image: -webkit-linear-gradient(left, #ccffff 0%, #ffcc00 100%);
+	background-image: linear-gradient(to right, #ccffff 0%, #ffcc00 100%);
+	border-top-right-radius: 80rpx;
+}
+.active-font {
+	font-weight: 700;
+}
+.recommend-fixed {
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 110rpx;
+}
+

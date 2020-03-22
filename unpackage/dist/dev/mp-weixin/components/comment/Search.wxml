@@ -1,0 +1,1 @@
+<view><view class="search-box"><view class="iconfont scan"></view><view class="search-group"><view class="search"><input type="text" placeholder="请输入关键字"/></view></view><view class="iconfont liuyan"></view></view></view>
