@@ -1,0 +1,5 @@
+
+.navs text.data-v-cb27996c{display: block; font-size: 30rpx; width: 100rpx; text-align: center; color: #464230;}
+.navs.data-v-cb27996c{display: -webkit-box;display: -webkit-flex;display: flex; -webkit-box-pack: center; -webkit-justify-content: center; justify-content: center; height: 35px; line-height: 35px; padding: 5rpx 0;}
+.activetext.data-v-cb27996c{border-bottom: 6rpx solid #3d3b32;}
+
